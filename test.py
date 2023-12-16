@@ -22,6 +22,10 @@ class Test2:
         return self.a / self.b
 
 
+class Some:
+    ...
+
+
 if __name__ == '__main__':
     t = Test()
     print(t.add())
